@@ -47,5 +47,3 @@ Variables are declared using the keywords `let`, `const`, or `var`.
 - **Objects**: A collection of key-value pairs.
 - **Arrays**: Ordered collections of values.
 - **Functions**: Blocks of reusable code.
-
----
