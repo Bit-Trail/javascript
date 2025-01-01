@@ -27,7 +27,6 @@ var depo#margin = "Added successfully"; console.log(depo#margin);
 let 0index = "first index"; console.log(0index); **/
 
 
-
 //Datatypes
 const erpid = 1011;
 console.log(typeof(erpid));
