@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="number" />
+    <button onclick="checkEvenOrOdd()" id="click">Check</button>
+    <p id="displayEvenOrOdd"></p>
+    <p id="displayCount"></p>
+
+    <script>
+        let count = 0;
+        function checkEvenOrOdd(){
+            count ++;
+            let num = document.getElementById("number");
+            let number = num.value;
+            let userClick = document.getElementById("click");
+            
+            if (number === ""){
+                document.getElementById("displayEvenOrOdd").innerHTML = "Please Enter a Number";
+            } else if (Number(number) % 2 == 0){
+                document.getElementById("displayEvenOrOdd").innerHTML = "Even Number";
+            } else document.getElementById("displayEvenOrOdd").innerHTML = "Odd Number";
+
+            document.getElementById("displayCount").innerHTML = count;
+        }
+    </script>
+</body>
+</html>
