@@ -1,0 +1,37 @@
+[
+    {
+        "carName" : "Hyundai Creta",
+        "carModel" : 2023,
+        "carPrice" : 747000,
+        "carStatus" : false,
+        "carAvailablity" : "Booked"
+    },
+    {
+        "carName" : "Tata Punch",
+        "carModel" : 2022,
+        "carPrice" : 515000,
+        "carStatus" : false,
+        "carAvailablity" : "Booked"
+    },
+    {
+        "carName" : "Maruti Suzuki Swift",
+        "carModel" : 2016,
+        "carPrice" : 347000,
+        "carStatus" : true,
+        "carAvailablity" : "Available"
+    },
+    {
+        "carName" : "Mahindra Scorpio-N",
+        "carModel" : 2019,
+        "carPrice" : 1007000,
+        "carStatus" : false,
+        "carAvailablity" : "Out of Stock"
+    },
+    {
+        "carName" : "Toyota Urban Cruiser Hyryder",
+        "carModel" : 2025,
+        "carPrice" : 1500000,
+        "carStatus" : true,
+        "carAvailablity" : "Available"
+    }
+]
