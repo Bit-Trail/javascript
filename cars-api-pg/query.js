@@ -42,7 +42,7 @@ async function  getAvailableCars(){
 }
 
 async function  getBudgetCars(maxBudget){
-    const getinBudgets = await pool.query('SELECT * FROM cars WHERE car_price <= $1 ORDER BY car_id',['maxBudget']);
+    const getinBudgets = await pool.query('SELECT * FROM cars WHERE car_price <= $1 ORDER BY car_id',[maxBudget]);
     if(getinBudgets.rowCount > 0){
         return getinBudgets.rows;
     }else {
